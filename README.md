@@ -1,12 +1,9 @@
-# 🦊 <a href="https://halogem.dev/" target="_blank">My Personal Website</a>
-###### Click <a href="https://halogem.tech" target="_blank">here</a> to view my professionally designed website for presenting work and other business stuff.
+# 🐈‍⬛ <a href="https://halogem.dev/" target="_blank">My Personal Website</a>
 
-🚧 **I'm rewriting my website again**~ :3
+![image](https://user-images.githubusercontent.com/101172593/178081786-be968621-cd6f-42bb-9a96-20d0c4d122cc.png)
 
 #### 📝 Changelog
-- Rewrote my website again using `display: flex` to make responsiveness better~ :3
-- Finished re-creating *media*.
-<!-- - Updated some pages to comply with W3 Accessibility standards (slowly updating these).-->
+- Experimenting currently...
 
 <!--
 #### 🪲 Issues
@@ -28,5 +25,3 @@
 #### 🖼️ Screenshots
 [not yet available]
 -->
-
-###### 🌿 *If you'd like to view my growth in web development, switch between branches and download/run the sources.*
