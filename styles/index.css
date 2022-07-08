@@ -95,6 +95,10 @@ header {
     overflow: hidden;
 }
 
+.mobileAlert {
+    visibility: hidden;
+}
+
 .firefly {
     animation: fadeIn2 linear 4s;
     -webkit-animation: fadeIn2 linear 4s;
