@@ -1,5 +1,7 @@
 # 🐈‍⬛ <a href="https://halogem.dev/" target="_blank">My Personal Website</a>
 
+![image](https://user-images.githubusercontent.com/101172593/178081786-be968621-cd6f-42bb-9a96-20d0c4d122cc.png)
+
 #### 📝 Changelog
 - Experimenting currently...
 
