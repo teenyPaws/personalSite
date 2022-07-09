@@ -15,7 +15,7 @@ html {
 
     /*Styling*/
     background: #060606;
-    background-image: url("../siteAssets/background.jpg");
+    background-image: url("../assets/background.jpg");
 } body {
     /*Positioning*/
     position: relative;
