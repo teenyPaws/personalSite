@@ -95,8 +95,7 @@
 
     .navigation {
         visibility: hidden;
-    }
-    .mobileAlert {
+    } .mobileAlert {
         position: relative;
         top: -20rem;
         left: 5rem;
