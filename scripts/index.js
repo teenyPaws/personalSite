@@ -7,7 +7,7 @@
 */
 
 function popup() {
-    var msg = "unavailable";
+    var msg = "🛏️ imma lazy fluffer so i'll add this page when i get a good time :3";
 
     alert(msg);
 }

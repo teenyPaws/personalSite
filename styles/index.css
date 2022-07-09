@@ -66,6 +66,7 @@ p {
     user-select: none;
 }
 a {
+    font-family: "Dosis", sans-serif;
     color: #9ba8ae;
     text-decoration: none;
 }
@@ -160,19 +161,6 @@ header {
 
     text-shadow: 2px 2px 4px #000000;
 } 
-.card {
-    position: relative;
-    top: -380px;
-    left: 0px;
-    float: right;
-    width: 43rem;
-    height: 93.75%;
-
-    display: flex;
-    flex-flow: row;
-
-    border: #9ba8ae 0px solid;
-} 
 
 /*
 .subcards {
@@ -254,7 +242,19 @@ header {
     -webkit-transition: all 0.25s ease-in-out;
     transform: translateY(0%);
     transition: all 0.3s ease-in-out;
-}
+} .card {
+    position: relative;
+    top: -378px;
+    left: 0px;
+    float: right;
+    width: 43rem;
+    height: 93.75%;
+
+    display: flex;
+    flex-flow: row;
+
+    border: #9ba8ae 0px solid;
+} 
 
 .social {
     display: flex;
