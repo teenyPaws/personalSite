@@ -1,8 +1,6 @@
 # 🐈‍⬛ <a href="https://halogem.dev/" target="_blank">My Personal Website</a>
 
-<img src="resources/banner.png">
-
-<!--![image](https://user-images.githubusercontent.com/101172593/178081786-be968621-cd6f-42bb-9a96-20d0c4d122cc.png)-->
+<a href="https://halogem.dev"><img src="resources/banner.png"></a>
 
 #### 📝 Changelog
 - Experimenting currently...
