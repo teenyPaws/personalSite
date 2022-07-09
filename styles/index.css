@@ -3,7 +3,7 @@
         Sources by: Halogem (github.com/teenyPaws)
         Website hosted with: GitHub Pages
         URL Domain obtained with: Google Domains
-        Icons obtained using: Google Fonts
+        Icons obtained using: Font Awesome
 */
 
 html {
@@ -162,63 +162,6 @@ header {
     text-shadow: 2px 2px 4px #000000;
 } 
 
-/*
-.subcards {
-    position: relative;
-    margin: 0.5rem;
-    float: right;
-    width: 20.5rem;
-    height: 30%;
-
-    background: linear-gradient(135deg,
-            rgba(59, 64, 66, 0.01),
-            rgba(59, 64, 66, 0.02));
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    -moz-backdrop-filter: blur(5px);
-    border-radius: 1rem 1rem 1rem 1rem;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.20);
-
-    border: #9ba8ae 0px solid;
-    transform: translateY(0%);
-    transition: all 0.15s ease-in-out;
-} .subcards div {
-    position: fixed;
-    top: 7.5rem;
-    left: 3rem;
-    text-align: center;
-
-    position: absolute;
-    top: 12rem;
-    left: 3rem;
-    text-align: center;
-
-    border: #9ba8ae 1px solid;
-
-    margin-bottom: 5px;
-    font-family: sans-serif;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: visibility 0s, opacity 0.5s linear; 
-    transition: visibility 0s, opacity 0.5s linear;
-}
-.subcards:hover img {
-    filter: blur(0px) brightness(55%);
-    box-shadow: 0 4px 6px 3px rgba(0, 0, 0, 0.2);
-    transform: translateY(-0.6%);
-    transition: all 0.15s ease-in-out;
-} .subcards:hover div{
-    visibility: visible;
-} .subcards img {
-    width: 100%;
-    height: 100%;
-
-    border-radius: 0.6rem;
-
-    filter: blur(2px) brightness(55%);
-    transition: all 0.15s ease-in-out;
-}
-*/
 .box {
     width: 60rem;
     height: 25rem;
