@@ -14,6 +14,8 @@
     align-items: center;
 
     border: #9ba8ae 0px solid;
+} .navigation a {
+    outline: none;
 }
 
 .blobby {
