@@ -132,6 +132,7 @@ header {
     left: -1.5rem;
     top: -0.25rem;
 
+    user-select: none;
     width: 120px;
     height: 120px;
     border-radius: 50%;
