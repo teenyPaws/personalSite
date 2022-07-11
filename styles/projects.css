@@ -224,6 +224,9 @@ header {
 } .card:hover {
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.6);
     transition: all 0.3s ease-in-out;
+} .card:hover img {
+    filter: blur(0px);
+    transition: all 0.2s ease-in-out;
 }
 .card h2 {
     position: absolute;
@@ -251,9 +254,6 @@ header {
     height: 70%;
     border-radius: 8px;
     filter: blur(2px);
-    transition: all 0.2s ease-in-out;
-} .card img:hover {
-    filter: blur(0px);
     transition: all 0.2s ease-in-out;
 } .dot1 {
     position: absolute;
