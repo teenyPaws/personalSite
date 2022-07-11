@@ -255,7 +255,7 @@ header {
     width: 93.5%;
     height: 75%;
     border-radius: 8px;
-    filter: blur(2px) brightness(60%);
+    filter: blur(2px);
     transition: all 0.2s ease-in-out;
 } .dot1 {
     position: absolute;
