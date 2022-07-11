@@ -188,9 +188,9 @@ header {
     transform: translateY(0%);
     transition: all 0.3s ease-in-out;
 } .card {
-    position: relative;
-    top: -378px;
-    left: 0px;
+    position: absolute;
+    top: 0px;
+    left: 272px;
     float: right;
     width: 43rem;
     height: 93.75%;
