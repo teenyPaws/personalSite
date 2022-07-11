@@ -222,7 +222,8 @@ header {
 
     border: #9ba8ae 0px solid;
 } .card:hover {
-    
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease-in-out;
 }
 .card h2 {
     position: absolute;
