@@ -19,7 +19,7 @@
 
 ---
 #### 🎨 Color Palette
-![color-palette](https://user-images.githubusercontent.com/101172593/174651348-049ade1b-55f4-47b5-b013-7148fc345d4b.png)
+<a href="https://halogem.dev"><img src="resources/color-palette.png"></a>
 
 <!--
 #### 🖼️ Screenshots
