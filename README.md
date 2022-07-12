@@ -2,10 +2,10 @@
 
 <a href="https://halogem.dev"><img src="resources/banner.png"></a>
 
-#### 📝 Changelog
-- Experimenting currently...
-
 <!--
+#### 📝 Changelog
+- N/A
+
 #### 🪲 Issues
 - N/A
 -->
