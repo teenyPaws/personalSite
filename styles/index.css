@@ -242,6 +242,7 @@ header {
     transition: all 0.3s ease-in-out;
 } .box2:hover {
     transform: translateY(-8%);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 6);
     transition: all 0.3s ease-in-out;
 } .box2 p {
     position: relative;

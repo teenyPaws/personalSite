@@ -46,6 +46,7 @@
     transition: all 0.3s ease-in-out;
 } .blobby:hover {
     transform: translateY(-6.5%);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 1);
     transition: all 0.3s ease-in-out;
 } .blobby h6 {
     position: relative;

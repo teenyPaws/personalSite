@@ -94,6 +94,8 @@
     }
 
     .firefly {
+        z-index: 1;
+
         animation: fadeIn2 linear 4s;
         -webkit-animation: fadeIn2 linear 4s;
         -moz-animation: fadeIn2 linear 4s;
@@ -103,9 +105,12 @@
 
     .mobileAlert {
         visibility: visible;
+        z-index: 1000;
     }
 
     .title {
+        z-index: 999;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -141,6 +146,8 @@
     }
 
     .body {
+        z-index: 999;
+
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -159,6 +166,8 @@
     }
 
     .card {
+        z-index: 999;
+
         visibility: hidden;
         position: relative;
         top: -380px;
@@ -174,6 +183,8 @@
     }
 
     .box {
+        z-index: 999;
+
         width: 20rem;
         height: 25rem;
 
@@ -201,6 +212,8 @@
     }
 
     .social {
+        z-index: 999;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -265,6 +278,8 @@
     }
 
     .blobby {
+        z-index: 999;
+
         position: relative;
         left: -0.4rem;
 
@@ -281,6 +296,8 @@
     }
 
     footer p {
+        z-index: 999;
+
         position: relative;
         text-align: center;
         font-size: 11px;
