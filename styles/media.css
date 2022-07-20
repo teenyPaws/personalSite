@@ -676,73 +676,13 @@ footer p {
         filter: blur(0px);
         transition: all 0.2s ease-in-out;
     } .dot1 {
-        position: absolute;
-        left: 265px;
-        top: 8px;
-
-        border-radius: 50%;
-        outline: none;
-        border: none;
-
-        background: linear-gradient(135deg,
-                rgba(120, 8, 0, 0.4),
-                rgba(120, 4, 0, 0.5));
-        backdrop-filter: blur(2px);
-        -webkit-backdrop-filter: blur(2px);
-        -moz-backdrop-filter: blur(2px);
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
-    }  .dot1:focus {
-        background: linear-gradient(135deg,
-                rgba(120, 8, 0, 0.6),
-                rgba(120, 4, 0, 0.7));
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
-        animation: windowButton 0.3s ease-in-out;
+        visibility: hidden;
     }
     .dot2 {
-        position: absolute;
-        left: 242px;
-        top: 8px;
-
-        border-radius: 50%;
-        outline: none;
-        border: none;
-
-        background: linear-gradient(135deg,
-                rgba(140, 80, 0, 0.3),
-                rgba(140, 80, 0, 0.4));
-        backdrop-filter: blur(2px);
-        -webkit-backdrop-filter: blur(2px);
-        -moz-backdrop-filter: blur(2px);
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
-    } .dot2:focus {
-        background: linear-gradient(135deg,
-                rgba(140, 80, 0, 0.45),
-                rgba(140, 80, 0, 0.55));
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
-        animation: windowButton 0.3s ease-in-out;
+        visibility: hidden;
     }
     .dot3 {
-        position: absolute;
-        left: 219px;
-        top: 8px;
-
-        border-radius: 50%;
-        outline: none;
-        border: none;
-
-        background: linear-gradient(135deg,
-                rgba(0, 80, 0, 0.35),
-                rgba(0, 80, 0, 0.45));
-        backdrop-filter: blur(2px);
-        -webkit-backdrop-filter: blur(2px);
-        -moz-backdrop-filter: blur(2px);
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
-    } .dot3:focus {
-        background: linear-gradient(135deg,
-                rgba(0, 80, 0, 0.60),
-                rgba(0, 80, 0, 0.70));
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
-        animation: windowButton 0.3s ease-in-out;
+        visibility: hidden;
     }
     @keyframes windowButton {
         25% {
