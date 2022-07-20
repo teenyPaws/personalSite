@@ -287,6 +287,7 @@ footer p {
         /*Positioning*/
         height: auto;
         width: auto;
+        overflow-x: hidden;
 
         /*Styling*/
         background: #060606;
