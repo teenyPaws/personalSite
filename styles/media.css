@@ -677,11 +677,9 @@ footer p {
         transition: all 0.2s ease-in-out;
     } .dot1 {
         position: absolute;
-        left: 269px;
+        left: 265px;
         top: 8px;
 
-        width: 0px;
-        height: 12px;
         border-radius: 50%;
         outline: none;
         border: none;
@@ -702,11 +700,9 @@ footer p {
     }
     .dot2 {
         position: absolute;
-        left: 250px;
+        left: 242px;
         top: 8px;
 
-        width: 0px;
-        height: 12px;
         border-radius: 50%;
         outline: none;
         border: none;
@@ -727,11 +723,9 @@ footer p {
     }
     .dot3 {
         position: absolute;
-        left: 230px;
+        left: 219px;
         top: 8px;
 
-        width: 0px;
-        height: 12px;
         border-radius: 50%;
         outline: none;
         border: none;
