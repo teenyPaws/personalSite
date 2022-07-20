@@ -527,13 +527,7 @@ footer p {
     }
 
     .firefly {
-        z-index: 1;
-
-        animation: fadeIn2 linear 4s;
-        -webkit-animation: fadeIn2 linear 4s;
-        -moz-animation: fadeIn2 linear 4s;
-        -o-animation: fadeIn2 linear 4s;
-        -ms-animation: fadeIn2 linear 4s;
+        visibility: hidden;
     }
 
     .mobileAlert {

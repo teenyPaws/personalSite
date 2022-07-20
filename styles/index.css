@@ -280,14 +280,6 @@ footer p {
     -ms-animation: fadeIn linear 1.5s;
 }
 
-/*
-    Credits to: 
-        Sources by: Halogem (github.com/teenyPaws)
-        Website hosted with: GitHub Pages
-        URL Domain obtained with: Google Domains
-        Icons obtained using: Font Awesome
-*/
-
 @media (max-width: 480px) {
     html {
         scroll-behavior: smooth;
@@ -298,7 +290,7 @@ footer p {
 
         /*Styling*/
         background: #060606;
-        background-image: url("../siteAssets/background.jpg");
+        background-image: url("../assets/background2.jpg");
     } body {
         /*Positioning*/
         position: relative;
@@ -347,7 +339,7 @@ footer p {
         font-size: 15px;
         text-shadow: 0 0 15px 10px #000;
         user-select: none;
-    }  a {
+    } a {
         color: #9ba8ae;
         text-decoration: none;
     }
@@ -356,6 +348,9 @@ footer p {
 
         border: 0px solid grey;
         /*Testing purposes*/
+    }
+    header {
+        overflow: hidden;
     }
     ::selection {
         background: #bd5c3300;
@@ -371,18 +366,9 @@ footer p {
     } ::-webkit-scrollbar-thumb:hover {
         background: #ffffff40;
     }
-    header {
-        overflow: hidden;
-    }
 
     .firefly {
-        z-index: 1;
-
-        animation: fadeIn2 linear 4s;
-        -webkit-animation: fadeIn2 linear 4s;
-        -moz-animation: fadeIn2 linear 4s;
-        -o-animation: fadeIn2 linear 4s;
-        -ms-animation: fadeIn2 linear 4s;
+        visibility: hidden;
     }
 
     .mobileAlert {
@@ -391,8 +377,6 @@ footer p {
     }
 
     .title {
-        z-index: 999;
-
         display: flex;
         justify-content: center;
         align-items: center;
@@ -418,7 +402,7 @@ footer p {
         width: 100px;
         height: 100px;
         border-radius: 50%;
-        box-shadow: 0 5px 10px 5px #000000;
+        box-shadow: 0 3px 6px 3px #000000;
         text-shadow: 2px 2px 4px #000000;
         animation: fadeIn linear 1s;
         -webkit-animation: fadeIn linear 1s;
@@ -428,8 +412,6 @@ footer p {
     }
 
     .body {
-        z-index: 999;
-
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -448,8 +430,6 @@ footer p {
     }
 
     .card {
-        z-index: 999;
-
         visibility: hidden;
         position: relative;
         top: -380px;
@@ -461,12 +441,14 @@ footer p {
         display: flex;
         flex-flow: row;
 
+        backdrop-filter: blur(25px);
+        -webkit-backdrop-filter: blur(25px);
+        -moz-backdrop-filter: blur(25px);
+
         border: #9ba8ae 0px solid;
     }
 
     .box {
-        z-index: 999;
-
         width: 20rem;
         height: 25rem;
 
@@ -494,8 +476,6 @@ footer p {
     }
 
     .social {
-        z-index: 999;
-
         display: flex;
         justify-content: center;
         align-items: center;
@@ -516,11 +496,11 @@ footer p {
         height: 2rem;
 
         background: linear-gradient(135deg,
-                rgba(50, 50, 50, 0.4),
-                rgba(40, 40, 40, 0.5));
-        backdrop-filter: blur(4px);
-        -webkit-backdrop-filter: blur(4px);
-        -moz-backdrop-filter: blur(4px);
+                rgba(50, 50, 50, 0.2),
+                rgba(40, 40, 40, 0.3));
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        -moz-backdrop-filter: blur(12px);
         border-radius: 1rem 1rem 1rem 1rem;
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 
@@ -560,8 +540,6 @@ footer p {
     }
 
     .blobby {
-        z-index: 999;
-
         position: relative;
         left: -0.4rem;
 

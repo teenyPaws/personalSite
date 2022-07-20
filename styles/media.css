@@ -451,7 +451,7 @@ footer p {
 
         /*Styling*/
         background: #060606;
-        background-image: url("../siteAssets/background.jpg");
+        background-image: url("../assets/background2.jpg");
     } body {
         /*Positioning*/
         position: relative;
@@ -529,11 +529,7 @@ footer p {
     }
 
     .firefly {
-        animation: fadeIn2 linear 4s;
-        -webkit-animation: fadeIn2 linear 4s;
-        -moz-animation: fadeIn2 linear 4s;
-        -o-animation: fadeIn2 linear 4s;
-        -ms-animation: fadeIn2 linear 4s;
+        visibility: hidden;
     }
 
     .title {
@@ -628,11 +624,11 @@ footer p {
         align-items: center;
 
         background: linear-gradient(135deg,
-                rgba(59, 64, 66, 0.125),
-                rgba(59, 64, 66, 0.2));
-        backdrop-filter: blur(2px);
-        -webkit-backdrop-filter: blur(2px);
-        -moz-backdrop-filter: blur(2px);
+                rgba(59, 64, 66, 0.2),
+                rgba(59, 64, 66, 0.3));
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        -moz-backdrop-filter: blur(6px);
         border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 
@@ -790,11 +786,11 @@ footer p {
         height: 2rem;
 
         background: linear-gradient(135deg,
-                rgba(50, 50, 50, 0.4),
-                rgba(40, 40, 40, 0.5));
-        backdrop-filter: blur(4px);
-        -webkit-backdrop-filter: blur(4px);
-        -moz-backdrop-filter: blur(4px);
+                rgba(50, 50, 50, 0.2),
+                rgba(40, 40, 40, 0.3));
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        -moz-backdrop-filter: blur(12px);
         border-radius: 1rem 1rem 1rem 1rem;
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 
