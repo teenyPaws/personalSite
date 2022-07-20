@@ -20,6 +20,7 @@
 ---
 #### 🎨 Color Palette
 <a href="https://halogem.dev"><img src="resources/color-palette.png"></a>
+<!--Neutral Color Palette-->
 
 <!--
 #### 🖼️ Screenshots
