@@ -529,7 +529,6 @@ footer p {
     }
 
     .firefly {
-
         animation: fadeIn2 linear 4s;
         -webkit-animation: fadeIn2 linear 4s;
         -moz-animation: fadeIn2 linear 4s;
@@ -595,7 +594,7 @@ footer p {
         top: 0px;
         width: 20rem;
         height: 37.15rem;
-    
+
         background: linear-gradient(135deg,
                 rgba(59, 64, 66, 0.125),
                 rgba(59, 64, 66, 0.2));
@@ -604,13 +603,13 @@ footer p {
         -moz-backdrop-filter: blur(15px);
         border-radius: 1rem 1rem 1rem 1rem;
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    
+
         animation: fadeIn2 linear 1.5s;
         -webkit-animation: fadeIn2 linear 1.5s;
         -moz-animation: fadeIn2 linear 1.5s;
         -o-animation: fadeIn2 linear 1.5s;
         -ms-animation: fadeIn2 linear 1.5s;
-    
+
         transition: all 0.25s ease-in-out;
         -webkit-transition: all 0.25s ease-in-out;
         transform: translateY(0%);
@@ -622,12 +621,12 @@ footer p {
         float: right;
         width: 18rem;
         height: 15rem;
-    
+
         margin: 0.6rem;
-    
+
         display: flex;
         align-items: center;
-    
+
         background: linear-gradient(135deg,
                 rgba(59, 64, 66, 0.125),
                 rgba(59, 64, 66, 0.2));
@@ -636,17 +635,17 @@ footer p {
         -moz-backdrop-filter: blur(2px);
         border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    
+
         animation: fadeIn2 linear 1.5s;
         -webkit-animation: fadeIn2 linear 1.5s;
         -moz-animation: fadeIn2 linear 1.5s;
         -o-animation: fadeIn2 linear 1.5s;
         -ms-animation: fadeIn2 linear 1.5s;
-    
+
         -webkit-transition: all 0.25s ease-in-out;
         transform: translateY(0%);
         transition: all 0.3s ease-in-out;
-    
+
         border: #9ba8ae 0px solid;
     } .card:focus {
         box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.6);
@@ -657,7 +656,7 @@ footer p {
         top: -8px;
         left: -4px;
         color: #519975;
-    
+
         font-size: 20px;
         text-shadow: 2px 2px 4px #000000;
         border: #9ba8ae 0px solid;
@@ -674,7 +673,7 @@ footer p {
         position: relative;
         left: 0.8rem;
         top: 2rem;
-    
+
         width: 91.25%;
         height: 61.75%;
         border-radius: 8px;
@@ -684,13 +683,13 @@ footer p {
         position: absolute;
         left: 269px;
         top: 8px;
-    
-        width: 12px;
+
+        width: 0px;
         height: 12px;
         border-radius: 50%;
         outline: none;
         border: none;
-    
+
         background: linear-gradient(135deg,
                 rgba(120, 8, 0, 0.4),
                 rgba(120, 4, 0, 0.5));
@@ -707,15 +706,15 @@ footer p {
     }
     .dot2 {
         position: absolute;
-        left: 248px;
+        left: 250px;
         top: 8px;
-    
-        width: 12px;
+
+        width: 0px;
         height: 12px;
         border-radius: 50%;
         outline: none;
         border: none;
-    
+
         background: linear-gradient(135deg,
                 rgba(140, 80, 0, 0.3),
                 rgba(140, 80, 0, 0.4));
@@ -732,15 +731,15 @@ footer p {
     }
     .dot3 {
         position: absolute;
-        left: 226px;
+        left: 230px;
         top: 8px;
-    
-        width: 12px;
+
+        width: 0px;
         height: 12px;
         border-radius: 50%;
         outline: none;
         border: none;
-    
+
         background: linear-gradient(135deg,
                 rgba(0, 80, 0, 0.35),
                 rgba(0, 80, 0, 0.45));
@@ -853,6 +852,7 @@ footer p {
     footer p {
         position: relative;
         text-align: center;
+        margin-bottom: 2.25rem;
         font-size: 11px;
         font-family: "Source Code Pro", monospace;
         color: #5a6165;
