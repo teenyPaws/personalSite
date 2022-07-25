@@ -76,6 +76,9 @@ ul {
     border: 0px solid grey;
     /*Testing purposes*/
 }
+header {
+    overflow: hidden;
+}
 ::selection {
     background: #bd5c3300;
 }
@@ -90,14 +93,6 @@ ul {
     border-radius: 20px;
 } ::-webkit-scrollbar-thumb:hover {
     background: #ffffff40;
-}
-
-header {
-    overflow: hidden;
-}
-
-.mobileAlert {
-    visibility: hidden;
 }
 
 .firefly {
@@ -284,16 +279,13 @@ footer p {
     html {
         scroll-behavior: smooth;
     } html, body {
-        /*Positioning*/
         height: auto;
         width: auto;
         overflow-x: hidden;
 
-        /*Styling*/
         background: #060606;
         background-image: url("../assets/background.jpg");
     } body {
-        /*Positioning*/
         position: relative;
         margin: 0;
     } body::before {
@@ -303,8 +295,8 @@ footer p {
         left: 0;
         width: 100%;
         height: 10px;
-        box-shadow: 0px 0 20px rgb(0, 0, 0);
-        z-index: 100;
+        box-shadow: 0 0 0 rgb(0, 0, 0);
+        z-index: -1;
     } body::after {
         content: "";
         position: fixed;
@@ -312,8 +304,8 @@ footer p {
         left: 0;
         width: 100%;
         height: 10px;
-        box-shadow: 0px 0 20px rgb(0, 0, 0);
-        z-index: 100;
+        box-shadow: 0 0 0 rgb(0, 0, 0);
+        z-index: -1;
     }
     p {
         color: #8f99a0;
@@ -348,7 +340,6 @@ footer p {
         list-style-type: none;
 
         border: 0px solid grey;
-        /*Testing purposes*/
     }
     header {
         overflow: hidden;
@@ -370,11 +361,6 @@ footer p {
 
     .firefly {
         visibility: hidden;
-    }
-
-    .mobileAlert {
-        visibility: visible;
-        z-index: 1000;
     }
 
     .title {
@@ -557,8 +543,6 @@ footer p {
     }
 
     footer p {
-        z-index: 999;
-
         position: relative;
         text-align: center;
         font-size: 11px;
