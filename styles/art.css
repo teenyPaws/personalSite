@@ -76,6 +76,9 @@ ul {
     border: 0px solid grey;
     /*Testing purposes*/
 }
+header {
+    overflow: hidden;
+}
 ::selection {
     background: #bd5c3300;
 }
@@ -90,18 +93,6 @@ ul {
     border-radius: 20px;
 } ::-webkit-scrollbar-thumb:hover {
     background: #ffffff40;
-}
-
-header {
-    overflow: hidden;
-}
-
-.mobileAlert {
-    position: relative;
-    top: -20rem;
-    z-index: 1000;
-    text-align: center;
-    visibility: hidden;
 }
 
 .firefly {
@@ -430,15 +421,6 @@ footer p {
     -ms-animation: fadeIn linear 1.5s;
 }
 
-
-/*
-    Credits to: 
-        Sources by: Halogem (github.com/teenyPaws)
-        Website hosted with: GitHub Pages
-        URL Domain obtained with: Google Domains
-        Icons obtained using: Font Awesome
-*/
-
 @media (max-width: 480px) {
     html {
         scroll-behavior: smooth;
@@ -446,10 +428,11 @@ footer p {
         /*Positioning*/
         height: auto;
         width: auto;
+        overflow: hidden;
 
         /*Styling*/
         background: #060606;
-        background-image: url("../siteAssets/background.jpg");
+        background-image: url("../assets/background.jpg");
     } body {
         /*Positioning*/
         position: relative;
@@ -536,8 +519,6 @@ footer p {
     }
 
     .title {
-        z-index: 999;
-
         display: flex;
         justify-content: center;
         align-items: center;
@@ -573,8 +554,6 @@ footer p {
     }
 
     .body {
-        z-index: 999;
-
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -593,15 +572,12 @@ footer p {
     }
 
     .card {
-        z-index: 999;
-
-        visibility: hidden;
         position: relative;
-        top: -380px;
-        left: 0px;
+        top: -10px;
+        left: -6px;
         float: right;
-        width: 43rem;
-        height: 93.75%;
+        width: 18rem;
+        height: 15rem;
 
         display: flex;
         flex-flow: row;
@@ -610,10 +586,10 @@ footer p {
     }
 
     .box {
-        z-index: 999;
-
+        position: relative;
+        top: 0px;
         width: 20rem;
-        height: 25rem;
+        height: 37.15rem;
 
         background: linear-gradient(135deg,
                 rgba(59, 64, 66, 0.125),
@@ -636,77 +612,63 @@ footer p {
         transition: all 0.3s ease-in-out;
 
         border: #9ba8ae 0px solid;
+    } .card:focus {
+        box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.6);
+        transition: all 0.3s ease-in-out;
     }
+    .card h2 {
+        position: absolute;
+        top: -8px;
+        left: -4px;
+        color: #519975;
 
-    .social {
-        z-index: 999;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        height: 3.5rem;
-
+        font-size: 20px;
+        text-shadow: 2px 2px 4px #000000;
         border: #9ba8ae 0px solid;
-    } .social a {
-        outline: none;
+    } .card h2:focus {
+        color: #5db98b;
+    }.card p {
+        position: absolute;
+        left: -3px;
+        top: 22px;
+        font-size: 15px;
+        text-shadow: 2px 2px 4px #000000;
+        border: #9ba8ae 0px solid;
+    } .card img {
+        position: relative;
+        left: 0.78rem;
+        top: 1.75rem;
+
+        width: 91.25%;
+        height: 66%;
+        border-radius: 8px;
+        filter: blur(0px);
+        transition: all 0.2s ease-in-out;
+    } .dot1 {
+        visibility: hidden;
     }
-    .box2 {
-        position: relative;
-        top: -2rem;
-        margin-top: 4rem;
-        margin-left: 0.27rem;
-        margin-right: 0.27rem;
-        width: 6.2rem;
-        height: 2rem;
-
-        background: linear-gradient(135deg,
-                rgba(50, 50, 50, 0.4),
-                rgba(40, 40, 40, 0.5));
-        backdrop-filter: blur(4px);
-        -webkit-backdrop-filter: blur(4px);
-        -moz-backdrop-filter: blur(4px);
-        border-radius: 1rem 1rem 1rem 1rem;
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-
-        animation: fadeIn linear 0.5s;
-        -webkit-animation: fadeIn linear 0.5s;
-        -moz-animation: fadeIn linear 0.5s;
-        -o-animation: fadeIn linear 0.5s;
-        -ms-animation: fadeIn linear 0.5s;
-
-        transition: all 0.25s ease-in-out;
-        -webkit-transition: all 0.25s ease-in-out;
-        transform: translateY(0%);
-        transition: all 0.3s ease-in-out;
-    } .box2:hover {
-        transform: translateY(-8%);
-        transition: all 0.3s ease-in-out;
-    } .box2 p {
-        position: relative;
-        left: 0.6rem;
-        top: -0.75rem;
-
-        animation: fadeIn linear 2.15s;
-        -webkit-animation: fadeIn linear 2.15s;
-        -moz-animation: fadeIn linear 2.15s;
-        -o-animation: fadeIn linear 2.15s;
-        -ms-animation: fadeIn linear 2.15s;
-    } .box2 h6 {
-        position: relative;
-        left: 2.2rem;
-        top: -5.2rem;
-
-        animation: fadeIn linear 2.15s;
-        -webkit-animation: fadeIn linear 2.15s;
-        -moz-animation: fadeIn linear 2.15s;
-        -o-animation: fadeIn linear 2.15s;
-        -ms-animation: fadeIn linear 2.15s;
+    .dot2 {
+        visibility: hidden;
+    }
+    .dot3 {
+        visibility: hidden;
+    }
+    @keyframes windowButton {
+        25% {
+            transform: translateX(-10%);
+        }
+        50% {
+            transform: translateX(10%);
+        }
+        75% {
+            transform: translateX(-5%);
+        }
+        100% {
+            transform: translateX(5%);
+        }
     }
 
     .blobby {
-        z-index: 999;
-
         position: relative;
         left: -0.4rem;
 
@@ -723,8 +685,6 @@ footer p {
     }
 
     footer p {
-        z-index: 999;
-
         position: relative;
         text-align: center;
         font-size: 11px;

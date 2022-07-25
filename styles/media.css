@@ -452,7 +452,7 @@ footer p {
 
         /*Styling*/
         background: #060606;
-        background-image: url("../assets/background2.jpg");
+        background-image: url("../assets/background.jpg");
     } body {
         /*Positioning*/
         position: relative;
@@ -511,6 +511,9 @@ footer p {
         border: 0px solid grey;
         /*Testing purposes*/
     }
+    header {
+        overflow: hidden;
+    }
     ::selection {
         background: #bd5c3300;
     } .scrollable-element {
@@ -524,9 +527,6 @@ footer p {
         border-radius: 20px;
     } ::-webkit-scrollbar-thumb:hover {
         background: #ffffff40;
-    }
-    header {
-        overflow: hidden;
     }
 
     .firefly {
