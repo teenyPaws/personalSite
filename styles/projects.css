@@ -275,8 +275,8 @@ header {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
 } .dot1:hover {
     background: linear-gradient(135deg,
-            rgba(120, 8, 0, 0.75),
-            rgba(120, 4, 0, 0.85));
+            rgba(144, 0, 0, 0.75),
+            rgba(144, 0, 0, 0.85));
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
 }  .dot1:focus {
     animation: windowButton 0.3s ease-in-out;
@@ -301,8 +301,8 @@ header {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
 } .dot2:hover {
     background: linear-gradient(135deg,
-            rgba(140, 80, 0, 0.65),
-            rgba(140, 80, 0, 0.75));
+            rgba(160, 100, 0, 0.65),
+            rgba(160, 100, 0, 0.75));
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
 } .dot2:focus {
     animation: windowButton 0.3s ease-in-out;
@@ -327,8 +327,8 @@ header {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
 } .dot3:hover {
     background: linear-gradient(135deg,
-            rgba(0, 80, 0, 0.7),
-            rgba(0, 80, 0, 0.8));
+            rgba(0, 100, 0, 0.7),
+            rgba(0, 100, 0, 0.8));
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
 } .dot3:focus {
     animation: windowButton 0.3s ease-in-out;
@@ -439,36 +439,15 @@ footer p {
     html {
         scroll-behavior: smooth;
     } html, body {
-        /*Positioning*/
         height: auto;
         width: auto;
-        overflow: hidden;
+        overflow-x: hidden;
 
-        /*Styling*/
         background: #060606;
         background-image: url("../assets/background.jpg");
     } body {
-        /*Positioning*/
         position: relative;
         margin: 0;
-    } body::before {
-        content: "";
-        position: fixed;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: 10px;
-        box-shadow: 0 0 0 rgb(0, 0, 0);
-        z-index: -1;
-    } body::after {
-        content: "";
-        position: fixed;
-        top: -10px;
-        left: 0;
-        width: 100%;
-        height: 10px;
-        box-shadow: 0 0 0 rgb(0, 0, 0);
-        z-index: -1;
     }
     p {
         color: #8f99a0;
