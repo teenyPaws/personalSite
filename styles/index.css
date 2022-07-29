@@ -397,7 +397,7 @@ footer p {
     } .box2 p {
         position: relative;
         left: 0.6rem;
-        top: -0.75rem;
+        top: 0rem;
     
         animation: fadeIn linear 2.15s;
         -webkit-animation: fadeIn linear 2.15s;
