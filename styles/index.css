@@ -194,6 +194,9 @@ header {
     display: flex;
     flex-flow: row;
 
+    animation: 0;
+    -moz-animation: fadeIn2 linear 1.5s;
+
     border: #9ba8ae 0px solid;
 } 
 
@@ -213,7 +216,7 @@ header {
     margin-top: 4rem;
     margin-left: 0.27rem;
     margin-right: 0.27rem;
-    width: 6.7rem;
+    width: 7rem;
     height: 2rem;
 
     background: linear-gradient(135deg,
@@ -236,6 +239,8 @@ header {
     transform: translateY(0%);
     transition: all 0.3s ease-in-out;
 } .box2:hover {
+    
+
     transform: translateY(-8%);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 6);
     transition: all 0.3s ease-in-out;
@@ -249,7 +254,27 @@ header {
     -moz-animation: fadeIn linear 2.15s;
     -o-animation: fadeIn linear 2.15s;
     -ms-animation: fadeIn linear 2.15s;
-} .box2 h6 {
+} .github {
+    position: relative;
+    left: 2.8rem;
+    top: -5.2rem;
+
+    animation: fadeIn linear 2.15s;
+    -webkit-animation: fadeIn linear 2.15s;
+    -moz-animation: fadeIn linear 2.15s;
+    -o-animation: fadeIn linear 2.15s;
+    -ms-animation: fadeIn linear 2.15s;
+} .email {
+    position: relative;
+    left: 2.65rem;
+    top: -5.2rem;
+
+    animation: fadeIn linear 2.15s;
+    -webkit-animation: fadeIn linear 2.15s;
+    -moz-animation: fadeIn linear 2.15s;
+    -o-animation: fadeIn linear 2.15s;
+    -ms-animation: fadeIn linear 2.15s;
+} .telegram {
     position: relative;
     left: 2.5rem;
     top: -5.2rem;
@@ -259,7 +284,17 @@ header {
     -moz-animation: fadeIn linear 2.15s;
     -o-animation: fadeIn linear 2.15s;
     -ms-animation: fadeIn linear 2.15s;
-} 
+} .bandcamp {
+    position: relative;
+    left: 2.25rem;
+    top: -5.2rem;
+
+    animation: fadeIn linear 2.15s;
+    -webkit-animation: fadeIn linear 2.15s;
+    -moz-animation: fadeIn linear 2.15s;
+    -o-animation: fadeIn linear 2.15s;
+    -ms-animation: fadeIn linear 2.15s;
+}
 
 footer p {
     position: relative;
