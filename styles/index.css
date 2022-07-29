@@ -539,6 +539,8 @@ footer p {
     }
 
     .box {
+        position: relative;
+        left: 0rem;
         width: 20rem;
         height: 25rem;
 
@@ -565,21 +567,6 @@ footer p {
         border: #9ba8ae 0px solid;
     } .card {
         visibility: hidden;
-        position: relative;
-        top: -380px;
-        left: 0px;
-        float: right;
-        width: 43rem;
-        height: 93.75%;
-
-        display: flex;
-        flex-flow: row;
-
-        backdrop-filter: blur(25px);
-        -webkit-backdrop-filter: blur(25px);
-        -moz-backdrop-filter: blur(25px);
-
-        border: #9ba8ae 0px solid;
     }
 
     .social {
