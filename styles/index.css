@@ -310,6 +310,111 @@ footer p {
     -ms-animation: fadeIn linear 1.5s;
 }
 
+@media (max-width: 1000px) {
+    html {
+        scroll-behavior: smooth;
+    } html, body {
+        height: auto;
+        width: auto;
+        overflow-x: hidden;
+
+        background: #060606;
+        background-image: url("../assets/background.jpg");
+    }
+
+    .box {
+        position: relative;
+        top: 0px;
+        left: 0.5rem;
+        width: 22rem;
+        height: 25rem;
+    
+        background: linear-gradient(135deg,
+                rgba(59, 64, 66, 0.125),
+                rgba(59, 64, 66, 0.2));
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        -moz-backdrop-filter: blur(15px);
+        border-radius: 1rem 1rem 1rem 1rem;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+        animation: fadeIn2 linear 1.5s;
+        -webkit-animation: fadeIn2 linear 1.5s;
+        -moz-animation: fadeIn2 linear 1.5s;
+        -o-animation: fadeIn2 linear 1.5s;
+        -ms-animation: fadeIn2 linear 1.5s;
+    
+        transition: all 0.25s ease-in-out;
+        -webkit-transition: all 0.25s ease-in-out;
+        transform: translateY(0%);
+        transition: all 0.3s ease-in-out;
+    } .card {
+        visibility: hidden;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        height: 3.5rem;
+    
+        border: #9ba8ae 0px solid;
+    } .social a {
+        outline: none;
+    } .box2 {
+        position: relative;
+        top: -2rem;
+        margin-top: 4rem;
+        margin-left: 0.27rem;
+        margin-right: 0.27rem;
+        width: 2.4rem;
+        height: 2rem;
+    
+        background: linear-gradient(135deg,
+                rgba(50, 50, 50, 0.4),
+                rgba(40, 40, 40, 0.5));
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        -moz-backdrop-filter: blur(4px);
+        border-radius: 1rem 1rem 1rem 1rem;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+        animation: fadeIn linear 0.5s;
+        -webkit-animation: fadeIn linear 0.5s;
+        -moz-animation: fadeIn linear 0.5s;
+        -o-animation: fadeIn linear 0.5s;
+        -ms-animation: fadeIn linear 0.5s;
+    
+        transition: all 0.25s ease-in-out;
+        -webkit-transition: all 0.25s ease-in-out;
+        transform: translateY(0%);
+        transition: all 0.3s ease-in-out;
+    } .box2:hover {
+        transform: translateY(-8%);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 6);
+        transition: all 0.3s ease-in-out;
+    } .box2 p {
+        position: relative;
+        left: 0.6rem;
+        top: -0.75rem;
+    
+        animation: fadeIn linear 2.15s;
+        -webkit-animation: fadeIn linear 2.15s;
+        -moz-animation: fadeIn linear 2.15s;
+        -o-animation: fadeIn linear 2.15s;
+        -ms-animation: fadeIn linear 2.15s;
+    } .github {
+        visibility: hidden;
+    } .email {
+        visibility: hidden;
+    } .telegram {
+        visibility: hidden;
+    } .bandcamp {
+        visibility: hidden;
+    }
+}
+
 @media (max-width: 480px) {
     html {
         scroll-behavior: smooth;
@@ -433,25 +538,6 @@ footer p {
         text-shadow: 2px 2px 4px #000000;
     }
 
-    .card {
-        visibility: hidden;
-        position: relative;
-        top: -380px;
-        left: 0px;
-        float: right;
-        width: 43rem;
-        height: 93.75%;
-
-        display: flex;
-        flex-flow: row;
-
-        backdrop-filter: blur(25px);
-        -webkit-backdrop-filter: blur(25px);
-        -moz-backdrop-filter: blur(25px);
-
-        border: #9ba8ae 0px solid;
-    }
-
     .box {
         width: 20rem;
         height: 25rem;
@@ -475,6 +561,23 @@ footer p {
         -webkit-transition: all 0.25s ease-in-out;
         transform: translateY(0%);
         transition: all 0.3s ease-in-out;
+
+        border: #9ba8ae 0px solid;
+    } .card {
+        visibility: hidden;
+        position: relative;
+        top: -380px;
+        left: 0px;
+        float: right;
+        width: 43rem;
+        height: 93.75%;
+
+        display: flex;
+        flex-flow: row;
+
+        backdrop-filter: blur(25px);
+        -webkit-backdrop-filter: blur(25px);
+        -moz-backdrop-filter: blur(25px);
 
         border: #9ba8ae 0px solid;
     }
