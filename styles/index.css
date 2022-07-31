@@ -667,11 +667,14 @@ footer p {
 
     footer p {
         position: relative;
+        margin-bottom: 3.5rem;
+
         text-align: center;
         font-size: 11px;
         font-family: "Source Code Pro", monospace;
         color: #5a6165;
         text-shadow: 2px 2px 4px #000;
+
         animation: fadeIn linear 1.5s;
         -webkit-animation: fadeIn linear 1.5s;
         -moz-animation: fadeIn linear 1.5s;
