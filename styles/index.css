@@ -90,7 +90,7 @@ header {
     background: rgb(40, 40, 40);
 } ::-webkit-scrollbar-thumb {
     background: #ffffff30;
-    border-radius: 20px;
+    border-radius: 6px;
 } ::-webkit-scrollbar-thumb:hover {
     background: #ffffff40;
 }
@@ -107,15 +107,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 
-    margin-top: 0.25rem;
     height: 10rem;
 
     border: #9ba8ae 0px solid;
 } .title h1 {
     position: relative;
     top: 0rem;
-    text-align: center;
 
     animation: fadeIn linear 1s;
     -webkit-animation: fadeIn linear 1s;
@@ -161,15 +161,15 @@ header {
 .box {
     position: relative;
     top: 0px;
-    width: 60rem;
-    height: 25rem;
+    width: 45.75rem;
+    height: 20.5rem;
 
     background: linear-gradient(135deg,
-            rgba(59, 64, 66, 0.125),
-            rgba(59, 64, 66, 0.2));
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    -moz-backdrop-filter: blur(15px);
+            rgba(59, 64, 66, 0.05),
+            rgba(59, 64, 66, 0.15));
+    backdrop-filter: blur(35px);
+    -webkit-backdrop-filter: blur(35px);
+    -moz-backdrop-filter: blur(35px);
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 
@@ -186,26 +186,21 @@ header {
 } .card {
     position: absolute;
     top: 0px;
-    left: 272px;
+    left: 275px;
     float: right;
-    width: 43rem;
-    height: 93.75%;
+    width: 28.15rem;
+    height: 90%;
 
     display: flex;
     flex-flow: row;
-
-    animation: 0;
-    -moz-animation: fadeIn2 linear 1.5s;
-
-    border: #9ba8ae 0px solid;
-} 
+}
 
 .social {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    height: 3.5rem;
+    height: 4rem;
 
     border: #9ba8ae 0px solid;
 } .social a {
@@ -213,11 +208,11 @@ header {
 } .box2 {
     position: relative;
     top: -2rem;
-    margin-top: 4rem;
+    margin-top: 4.5rem;
     margin-left: 0.27rem;
     margin-right: 0.27rem;
-    width: 7rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
 
     background: linear-gradient(135deg,
             rgba(50, 50, 50, 0.4),
@@ -225,7 +220,7 @@ header {
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     -moz-backdrop-filter: blur(4px);
-    border-radius: 1rem 1rem 1rem 1rem;
+    border-radius: 2rem 2rem 2rem 2rem;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 
     animation: fadeIn linear 0.5s;
@@ -234,60 +229,23 @@ header {
     -o-animation: fadeIn linear 0.5s;
     -ms-animation: fadeIn linear 0.5s;
 
-    transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
     transform: translateY(0%);
     transition: all 0.3s ease-in-out;
 } .box2:hover {
-    
-
-    transform: translateY(-8%);
+    transform: translateY(-7%);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 6);
     transition: all 0.3s ease-in-out;
 } .box2 p {
     position: relative;
-    left: 0.6rem;
-    top: -0.75rem;
+    left: 0.5rem;
+    top: -1rem;
 
-    animation: fadeIn linear 2.15s;
-    -webkit-animation: fadeIn linear 2.15s;
-    -moz-animation: fadeIn linear 2.15s;
-    -o-animation: fadeIn linear 2.15s;
-    -ms-animation: fadeIn linear 2.15s;
-} .github {
-    position: relative;
-    left: 2.8rem;
-    top: -5.2rem;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
 
-    animation: fadeIn linear 2.15s;
-    -webkit-animation: fadeIn linear 2.15s;
-    -moz-animation: fadeIn linear 2.15s;
-    -o-animation: fadeIn linear 2.15s;
-    -ms-animation: fadeIn linear 2.15s;
-} .email {
-    position: relative;
-    left: 2.65rem;
-    top: -5.2rem;
-
-    animation: fadeIn linear 2.15s;
-    -webkit-animation: fadeIn linear 2.15s;
-    -moz-animation: fadeIn linear 2.15s;
-    -o-animation: fadeIn linear 2.15s;
-    -ms-animation: fadeIn linear 2.15s;
-} .telegram {
-    position: relative;
-    left: 2.5rem;
-    top: -5.2rem;
-
-    animation: fadeIn linear 2.15s;
-    -webkit-animation: fadeIn linear 2.15s;
-    -moz-animation: fadeIn linear 2.15s;
-    -o-animation: fadeIn linear 2.15s;
-    -ms-animation: fadeIn linear 2.15s;
-} .bandcamp {
-    position: relative;
-    left: 2.25rem;
-    top: -5.2rem;
+    outline: none;
 
     animation: fadeIn linear 2.15s;
     -webkit-animation: fadeIn linear 2.15s;
@@ -310,6 +268,93 @@ footer p {
     -ms-animation: fadeIn linear 1.5s;
 }
 
+.hiddenLink {
+    position: absolute;
+    transform: translateY(-100%);
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+    height: 2.5rem;
+    width: 2.5rem;
+
+    filter: opacity(0%);
+    background: linear-gradient(135deg,
+            rgba(59, 64, 66, 0.35),
+            rgba(59, 64, 66, 0.45));
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    transition: all 0.3s ease-in-out;
+
+    outline: none;
+    border: 0px solid rgb(255, 255, 255);
+} .hiddenLink:focus {
+    filter: opacity(100%);
+    transform: translateY(-14%);
+    transition: all 0.3s ease-in-out;
+
+    z-index: 1000;
+
+    outline: none;
+    text-decoration: none;
+} .hiddenLink:hover + .porn {
+    transform: translateY(-5%);
+    filter: opacity(100%);
+    transition: all 0.5s ease-in-out;
+
+    outline: none;
+    text-decoration: none;
+} .hiddenLink p {
+    position: relative;
+    left: 0rem;
+    top: -0.97rem;
+
+    font-size: 23px;
+    text-decoration: none;
+
+    outline: none;
+}
+.porn {
+    position: absolute;
+    transform: translateY(-100%);
+    left: 4.25rem;
+    margin-top: 1rem;
+
+    height: 2rem;
+    width: 5rem;
+
+    background: linear-gradient(135deg,
+            rgba(59, 64, 66, 0.35),
+            rgba(59, 64, 66, 0.45));
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    filter: opacity(0%);
+    transition: all 5s ease-in-out;
+
+    outline: none;
+    border: 0px solid rgb(255, 255, 255);
+} .porn a {
+    position: relative;
+    top: 0.25rem;
+    left: 0.7rem;
+
+    color: #519975;
+    font-size: 18px;
+    text-decoration: none;
+
+    outline: none;
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3.5rem;
+    height: 3.5rem;
+
+    z-index: 99;
+
+    border: 0px solid rgb(255, 255, 255);
+}
+
 @media (max-width: 1000px) {
     html {
         scroll-behavior: smooth;
@@ -327,8 +372,8 @@ footer p {
         top: 0px;
         left: 0.5rem;
         width: 22rem;
-        height: 25rem;
-    
+        height: 20rem;
+
         background: linear-gradient(135deg,
                 rgba(59, 64, 66, 0.125),
                 rgba(59, 64, 66, 0.2));
@@ -337,13 +382,13 @@ footer p {
         -moz-backdrop-filter: blur(15px);
         border-radius: 1rem 1rem 1rem 1rem;
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    
+
         animation: fadeIn2 linear 1.5s;
         -webkit-animation: fadeIn2 linear 1.5s;
         -moz-animation: fadeIn2 linear 1.5s;
         -o-animation: fadeIn2 linear 1.5s;
         -ms-animation: fadeIn2 linear 1.5s;
-    
+
         transition: all 0.25s ease-in-out;
         -webkit-transition: all 0.25s ease-in-out;
         transform: translateY(0%);
@@ -352,12 +397,16 @@ footer p {
         visibility: hidden;
     }
 
+    .hiddenLink {
+        visibility: hidden;
+    } .porn { visibility: hidden; }
+
     .social {
         display: flex;
         justify-content: center;
         align-items: center;
     
-        height: 3.5rem;
+        height: 4rem;
     
         border: #9ba8ae 0px solid;
     } .social a {
@@ -365,53 +414,50 @@ footer p {
     } .box2 {
         position: relative;
         top: -2rem;
-        margin-top: 4rem;
+        margin-top: 4.5rem;
         margin-left: 0.27rem;
         margin-right: 0.27rem;
-        width: 2.35rem;
-        height: 2rem;
-    
+        width: 2.5rem;
+        height: 2.5rem;
+
         background: linear-gradient(135deg,
                 rgba(50, 50, 50, 0.4),
                 rgba(40, 40, 40, 0.5));
         backdrop-filter: blur(4px);
         -webkit-backdrop-filter: blur(4px);
         -moz-backdrop-filter: blur(4px);
-        border-radius: 1rem 1rem 1rem 1rem;
+        border-radius: 2rem 2rem 2rem 2rem;
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    
+
         animation: fadeIn linear 0.5s;
         -webkit-animation: fadeIn linear 0.5s;
         -moz-animation: fadeIn linear 0.5s;
         -o-animation: fadeIn linear 0.5s;
         -ms-animation: fadeIn linear 0.5s;
-    
-        transition: all 0.25s ease-in-out;
+
         -webkit-transition: all 0.25s ease-in-out;
         transform: translateY(0%);
         transition: all 0.3s ease-in-out;
     } .box2:hover {
-        transform: translateY(-8%);
+        transform: translateY(-7%);
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 6);
         transition: all 0.3s ease-in-out;
     } .box2 p {
         position: relative;
-        left: 0.6rem;
-        top: -0.7rem;
-    
+        left: 0.5rem;
+        top: -1rem;
+
+        text-align: center;
+        font-size: 24px;
+        text-decoration: none;
+
+        outline: none;
+
         animation: fadeIn linear 2.15s;
         -webkit-animation: fadeIn linear 2.15s;
         -moz-animation: fadeIn linear 2.15s;
         -o-animation: fadeIn linear 2.15s;
         -ms-animation: fadeIn linear 2.15s;
-    } .github {
-        visibility: hidden;
-    } .email {
-        visibility: hidden;
-    } .telegram {
-        visibility: hidden;
-    } .bandcamp {
-        visibility: hidden;
     }
 }
 
@@ -499,9 +545,9 @@ footer p {
         background: #ffffff40;
     }
 
-    .firefly {
+    .hiddenLink {
         visibility: hidden;
-    }
+    } .porn { visibility: hidden; }
 
     .title {
         display: flex;
@@ -560,7 +606,7 @@ footer p {
         position: relative;
         left: 0rem;
         width: 20rem;
-        height: 25rem;
+        height: 20.5rem;
 
         background: linear-gradient(135deg,
                 rgba(59, 64, 66, 0.125),
@@ -592,7 +638,7 @@ footer p {
         justify-content: center;
         align-items: center;
     
-        height: 3.5rem;
+        height: 4rem;
     
         border: #9ba8ae 0px solid;
     } .social a {
@@ -600,11 +646,11 @@ footer p {
     } .box2 {
         position: relative;
         top: -2rem;
-        margin-top: 4rem;
+        margin-top: 4.5rem;
         margin-left: 0.27rem;
         margin-right: 0.27rem;
-        width: 2.35rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     
         background: linear-gradient(135deg,
                 rgba(50, 50, 50, 0.4),
@@ -612,7 +658,7 @@ footer p {
         backdrop-filter: blur(4px);
         -webkit-backdrop-filter: blur(4px);
         -moz-backdrop-filter: blur(4px);
-        border-radius: 1rem 1rem 1rem 1rem;
+        border-radius: 2rem 2rem 2rem 2rem;
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     
         animation: fadeIn linear 0.5s;
@@ -621,32 +667,29 @@ footer p {
         -o-animation: fadeIn linear 0.5s;
         -ms-animation: fadeIn linear 0.5s;
     
-        transition: all 0.25s ease-in-out;
         -webkit-transition: all 0.25s ease-in-out;
         transform: translateY(0%);
         transition: all 0.3s ease-in-out;
-    } .box2:hover {
-        transform: translateY(-8%);
+    } .box2:focus {
+        transform: translateY(-50%);
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 6);
         transition: all 0.3s ease-in-out;
     } .box2 p {
         position: relative;
-        left: 0.6rem;
-        top: -0.7rem;
+        left: 0.5rem;
+        top: -1rem;
+    
+        text-align: center;
+        font-size: 24px;
+        text-decoration: none;
+    
+        outline: none;
     
         animation: fadeIn linear 2.15s;
         -webkit-animation: fadeIn linear 2.15s;
         -moz-animation: fadeIn linear 2.15s;
         -o-animation: fadeIn linear 2.15s;
         -ms-animation: fadeIn linear 2.15s;
-    } .github {
-        visibility: hidden;
-    } .email {
-        visibility: hidden;
-    } .telegram {
-        visibility: hidden;
-    } .bandcamp {
-        visibility: hidden;
     }
 
     .blobby {

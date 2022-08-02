@@ -13,6 +13,8 @@
     justify-content: center;
     align-items: center;
 
+    z-index: 100;
+
     border: #9ba8ae 0px solid;
 } .navigation a {
     outline: none;
@@ -20,7 +22,7 @@
 
 .blobby {
     margin-left: 0.75rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0.15rem;
 
     width: 6rem;
     height: 2rem;
